@@ -1,0 +1,12 @@
+<h2>People Detail</h2>
+
+<detail-head></detail-head>
+<detail-toolbar></detail-toolbar>
+
+<h3>detail</h3>
+<div *ngIf="people">
+  <h3>{{ people.name }}</h3>
+  <h4>{{ people.price | currency }}</h4>
+  <p>{{ people.description }}</p>
+  <button type="button" (click)="addToCart(people)">Buy</button>
+</div>

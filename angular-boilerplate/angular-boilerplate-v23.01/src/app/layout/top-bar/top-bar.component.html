@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="left-container">
+        <button class="toggle" (click)="toggleMenuBar()">=</button>
+        <a class="homelogo" href="/"> Qutat.net </a>
+    </div>
+    <div class="right-container" *ngIf="user.pk">
+        {{user.email}}
+        <button class="button" (click)="logout()">Logout</button>
+    </div>
+</div>
+

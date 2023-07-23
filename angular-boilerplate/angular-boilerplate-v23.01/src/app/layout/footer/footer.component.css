@@ -1,0 +1,11 @@
+.container {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-around;
+    display: grid;
+    column-gap: 14px;
+    row-gap: 14px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 400px));
+}
