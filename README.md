@@ -1,13 +1,11 @@
 # angular_boilerplate_v23.01
 Angular 기반 웹 개발을 빠르게 시작할 수 있는 템플릿 입니다.
 
-# 설치 및 실행 
- - angular CLI 설치
+# 설치 및 실행
+ - angular CLI 글로벌 설치 (이미 설치 된 경우 스킵)    
    - npm install -g @angular/cli
- - angular 프로젝트 생성
-   - ng new [프로젝트 이름]
- - boilerplate 적용
-   - 프로젝트 폴더 중 src 를 본 소스코드로 교체
+ - 의존 라이브러리 로컬 설치
+   - npm i
  - 실행
    - ng serve
 
